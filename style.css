@@ -11,6 +11,7 @@
   color: #f15b22;
   border-radius: 5px;
   border: 1px solid #f15b22;
+  font-weight: 600;
 }
 h2,
 h3 {
@@ -39,6 +40,7 @@ p {
 .header-text-block {
   width: 525px;
   padding-top: 216px;
+  float: right;
 }
 
 .header-text-block h2 {
@@ -133,3 +135,88 @@ p {
   font-size: 25px;
   font-weight: 500;
 }
+
+/* Reminder section */
+.reminder {
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto 130px;
+  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+}
+
+.reminder-text {
+  width: 459px;
+  padding: 59px 0 0 64px;
+}
+
+.reminder-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.reminder-text button {
+  padding: 20px 36px;
+}
+
+/* Footer section */
+.footer {
+  background-color: #151414;
+}
+.footer h2,
+p {
+  color: #fff;
+}
+.footer-box {
+  width: 1140px;
+  margin: auto;
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.future {
+  width: 485px;
+}
+
+.future h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer p {
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.social {
+  padding-top: 8px;
+}
+.social img{
+    margin-right: 17px;
+}
+
+.subscribe {
+  width: 325px;
+}
+.subscribe h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.subscribe input {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  padding: 21px 0 21px 21px;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 20px 36px;
+}
+
+
