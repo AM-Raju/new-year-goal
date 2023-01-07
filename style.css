@@ -101,6 +101,8 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 130px auto;
+  border-radius: 5px;
+  padding-bottom: 30px;
 }
 
 .failures-image {
@@ -183,7 +185,7 @@ p {
       rgba(255, 255, 255, 0),
       rgba(241, 91, 34, 0.8)
     ),
-    url("/images/watch.png");
+    url("./images/watch.png");
   border-radius: 5px;
 }
 
