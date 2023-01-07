@@ -4,6 +4,7 @@
   font-family: "Work Sans", sans-serif;
   list-style: none;
 }
+
 /* Predefined style */
 .btn-primary {
   font-size: 20px;
@@ -13,6 +14,7 @@
   border: 1px solid #f15b22;
   font-weight: 600;
 }
+
 h2,
 h3 {
   color: #151414;
@@ -22,7 +24,8 @@ p {
   color: #444343;
   line-height: 26px;
 }
-/* Header */
+
+/* ================== Header===================== */
 .header {
   height: 809px;
   width: 1600px;
@@ -32,6 +35,37 @@ p {
   background-repeat: no-repeat;
 }
 
+/* -----Logo and Navigation----- */
+.logo-nav-box {
+  width: 1144px;
+  padding-top: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* logo */
+.logo {
+  margin: 0 50px 0 100px;
+  width: 80px;
+}
+
+/* Navigation  */
+.nav-menu li {
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f15b22;
+}
+
+#plan {
+  color: #fff;
+  background-color: #f15b22;
+  border-radius: 3px;
+}
+
+/* ---------- Banner and text box ----------- */
 .header-box {
   width: 1140px;
   margin: auto;
@@ -39,27 +73,29 @@ p {
 
 .header-text-block {
   width: 525px;
-  padding-top: 216px;
+  padding-top: 92px;
   float: right;
 }
 
 .header-text-block h2 {
   font-size: 65px;
   margin-bottom: 25px;
+  text-align: right;
 }
 
 .header-text-block p {
-  text-align: left;
+  text-align: right;
   margin-bottom: 30px;
 }
 
 .header-text-block button {
   background-color: #f15b22;
   color: #fff;
+  float: right;
 }
 
-/* Main */
-/* Last year failure section */
+/* ======================= Main ========================= */
+/* ----------- Last year failure section ------------- */
 .failures {
   width: 1140px;
   display: flex;
@@ -81,6 +117,7 @@ p {
   margin-bottom: 24px;
   font-weight: 700;
 }
+
 .failures-text-block p {
   margin-bottom: 16px;
 }
@@ -96,7 +133,7 @@ p {
   line-height: 26px;
 }
 
-/* My plans */
+/* -------------------- My plans section ----------------- */
 .my-plans {
   width: 1140px;
   margin: 0 auto 125px;
@@ -136,12 +173,18 @@ p {
   font-weight: 500;
 }
 
-/* Reminder section */
+/* ------------------- Reminder section -------------------- */
 .reminder {
   width: 1140px;
   height: 300px;
   margin: 0 auto 130px;
-  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(241, 91, 34, 0.8)
+    ),
+    url("/images/watch.png");
+  border-radius: 5px;
 }
 
 .reminder-text {
@@ -160,14 +203,16 @@ p {
   padding: 20px 36px;
 }
 
-/* Footer section */
+/* ====================== Footer =====================*/
 .footer {
   background-color: #151414;
 }
+
 .footer h2,
-p {
+.footer p {
   color: #fff;
 }
+
 .footer-box {
   width: 1140px;
   margin: auto;
@@ -176,6 +221,11 @@ p {
   justify-content: space-between;
 }
 
+.footer p {
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+/* ---------------- Future part ------------------ */
 .future {
   width: 485px;
 }
@@ -185,19 +235,14 @@ p {
   font-weight: 700;
   margin-bottom: 16px;
 }
-
-.footer p {
-  line-height: 26px;
-  margin-bottom: 24px;
-}
-
+/* Social icons */
 .social {
   padding-top: 8px;
 }
-.social img{
-    margin-right: 17px;
+.social img {
+  margin-right: 17px;
 }
-
+/* subscribe part */
 .subscribe {
   width: 325px;
 }
@@ -218,5 +263,3 @@ p {
 .subscribe button {
   padding: 20px 36px;
 }
-
-
